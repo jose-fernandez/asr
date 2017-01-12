@@ -1,0 +1,55 @@
+.form{
+	padding: 100px;
+	margin-left: 20%;
+	border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 2px;
+
+}
+.container{
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+span{
+	float: left;
+	width: 30%;
+}
+
+.buttons{
+	margin-left: 30%;
+	padding-top: 20px;
+}
+
+.buttons>button{
+	border-radius: 10px;
+}
+
+.box{
+	float: left;
+	width: 40%;
+	border-radius: 10px;
+}
+
+@media screen and (min-width:320px)
+and (max-width:640px) {
+	.form{
+	padding: 10px;
+
+	border-radius: 15px;
+    border: 1px solid #000;
+    box-shadow: 2px;
+    margin-bottom: 55px;
+    margin-top: 55px;
+	}
+
+   .bg{
+   	height: 200px;
+   	width: 95%;
+   	margin-left: 0px;
+   	margin-bottom: 100px;
+   }
+
+}
